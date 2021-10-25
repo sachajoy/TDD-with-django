@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+# Create your viewsd here.
+def home_page():
+    pass
