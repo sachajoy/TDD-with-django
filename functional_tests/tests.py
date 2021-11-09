@@ -85,8 +85,8 @@ class NewVisitorsTest(LiveServerTestCase):
 
         #She notice new url
         edith_list_url = self.browser.current_url
-        self.assertRegex(ediths_list_url, '/lists/.+')
-        
+        self.assertRegex(edith_list_url, '/lists/.+')
+
         # Now a new user, Francis, comes along to the site.
         ## We use a new browser session to make sure that no information
         ## of Edith's is coming through from cookies etc
