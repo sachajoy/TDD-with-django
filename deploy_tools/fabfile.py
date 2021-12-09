@@ -6,7 +6,7 @@ import random
 REPO_URL = 'https://github.com/sachajoy/TDD-with-django.git'
 
 def deploy():
-    site_folder = f'/home/{env.user}/sites/todo-list'
+    site_folder = f'/home/{env.user}/sites/139.59.61.43'
     source_folder = site_folder + '/source'
     _create_directory_structure_if_necessary(site_folder)
     _get_latest_source(source_folder)
